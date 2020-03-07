@@ -67,4 +67,7 @@ server.listen(port, function(){
 })
 
 
+require('./service/media')
+
+
 module.exports = app
